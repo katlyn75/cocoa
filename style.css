@@ -1,20 +1,34 @@
 
-body { background-color: purple
+body {
+     background-color: purple
+}
+
+h1,h2,h3{
+    margin:0%;
 }
 
 header {
     display:flex;
+    align-items:center;
     justify-content: space-between;
     color: black;
     background-color: royalblue;
+    border-width: 10px; 
+    border-color: grey;
+    border-bottom-style: solid;
+    padding-bottom: 20px;
 }
-header #branding{
-    h1{
-        display:
-    }
 
+header #branding img{
+    height: 42px;
+    display:flex;
+    align-items:center;
+    margin-right: 5px;
+    font:
+    font-height:
 }
-header #socialicons{
+
+header #socialicons {
     display:flex;
 
 }
