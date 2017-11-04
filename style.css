@@ -1,18 +1,19 @@
 
 body {
-     background-color: purple
+     background-color: purple;
+     padding: 100px;
 }
 
-h1,h2,h3{
-    margin:0%;
+h1,h2,h3,h4{
+    margin:0;
 }
 
-header {
+header #delicious{
     display:flex;
     align-items:center;
     justify-content: space-between;
     color: black;
-    background-color: royalblue;
+    background-color: lightgreen;
     border-width: 10px; 
     border-color: grey;
     border-bottom-style: solid;
@@ -24,33 +25,82 @@ header #branding img{
     display:flex;
     align-items:center;
     margin-right: 5px;
-    font:
-    font-height:
 }
 
 header #socialicons {
     display:flex;
-
 }
 
+header #pizza {
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    padding: 30px;
+    padding-bottom: 15px;
+}
+
+#print-button {
+    height: 40px;
+    width : 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#main img{
+    width:100%;
+}
 
 p { 
     font-family: sans-serif;
     font-weight: 200;
     font-size: 16px;
-     
 }
 
-button { 
-    box-shadow:rgb(17, 69, 223);
+form { 
+    box-shadow:2px 2px 5px 1px rgb(17, 69, 223);
     color: blueviolet;
+    padding:30px;
+    display:flex;
+    justify-content:space-around;
+    margin: 50px 0; 
 }
-
-form { color: grey;
+form #left{
+    display:flex;
+    flex-direction: column;
+    
 }
-
+form #right{
+    display:flex;
+    flex-direction: column;
+}
 form label{
     color: red;
+    background-color: lightgreen;
 }
 
+#recipe-button{
+    background-color: lightgreen;
+    padding:10px;
+    border:none;
+}
 
+#bio{
+    height: 42px;
+    display:flex;
+    align-items:center;
+    margin-right: 5px;
+}
+
+article footer {
+    display:flex;
+    border-width: 10px; 
+    border-color: grey;
+    border-top-style: solid;
+    justify-content: space-between;
+    align-items:center;
+ }
+
+ #footer{
+    text-align: center;
+
+ }
