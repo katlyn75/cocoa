@@ -1,0 +1,116 @@
+body {
+    padding: 2% 10%;
+}
+
+h1,h2,h3,h4{
+   margin:0;
+}
+
+#delicious{
+   display:flex;
+   align-items:center;
+   justify-content: space-between;
+   color: black;
+   border-width: 10px; 
+   border-color: lightgrey;
+   border-bottom-style: solid;
+   padding-bottom: 20px;
+}
+
+#branding {
+    display: flex;
+}
+
+#branding img{
+   height: 42px;
+   display:flex;
+   align-items:center;
+   margin-right: 5px;
+}
+
+#social-icons {
+   display: flex;
+}
+
+#social-icons img{
+    margin: 0 2px;
+}
+
+.spaced {
+    margin-right: 20px;
+}
+
+#pizza {
+   display: flex;
+   justify-content:space-between;
+   align-items: center; 
+   padding-top: 30px;
+   padding-bottom: 15px;
+}
+
+#print-button {
+   height: 40px;
+   width : 60px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+#main img{
+   width:100%;
+}
+
+p { 
+   font-family: sans-serif;
+   font-weight: 200;
+   font-size: 16px;
+}
+
+form { 
+   box-shadow:2px 2px 5px 1px rgb(17, 69, 223);
+   color: blueviolet;
+   padding:30px;
+   display:flex;
+   justify-content:space-around;
+   margin: 50px 0; 
+}
+form #left{
+   display:flex;
+   flex-direction: column;
+   
+}
+form #right{
+   display:flex;
+   flex-direction: column;
+}
+form label{
+   color: red;
+   background-color: lightgreen;
+}
+
+#recipe-button{
+   background-color: lightgreen;
+   padding:10px;
+   border:none;
+}
+
+#bio{
+   height: 42px;
+   display:flex;
+   align-items:center;
+   margin-right: 5px;
+}
+
+article footer {
+   display:flex;
+   border-width: 10px; 
+   border-color: lightgrey;
+   border-top-style: solid;
+   justify-content: space-between;
+   align-items:center;
+   padding-top: 20px;
+}
+
+#footer{
+   text-align: center;
+
+}
