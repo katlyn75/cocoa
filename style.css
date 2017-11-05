@@ -8,7 +8,7 @@ h1,h2,h3,h4{
     margin:0;
 }
 
-header #delicious{
+#delicious{
     display:flex;
     align-items:center;
     justify-content: space-between;
@@ -17,25 +17,29 @@ header #delicious{
     border-width: 10px; 
     border-color: grey;
     border-bottom-style: solid;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
-header #branding img{
+#branding {
+    display: flex;
+}
+
+#branding img{
     height: 42px;
     display:flex;
     align-items:center;
     margin-right: 5px;
 }
 
-header #socialicons {
+#socialicons {
     display:flex;
 }
 
-header #pizza {
+#pizza {
     display: flex;
     justify-content:space-between;
     align-items: center; 
-    padding: 30px;
+    padding: 30px 0;
     padding-bottom: 15px;
 }
 
@@ -86,21 +90,23 @@ form label{
 
 #bio{
     height: 42px;
-    display:flex;
     align-items:center;
     margin-right: 5px;
 }
 
 article footer {
     display:flex;
+    align-items: center;
     border-width: 10px; 
     border-color: grey;
     border-top-style: solid;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
+    padding-top: 20px;
  }
 
  #footer{
+    padding-top: 40px;
     text-align: center;
 
  }
